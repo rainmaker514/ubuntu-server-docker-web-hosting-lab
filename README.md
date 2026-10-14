@@ -1,2 +1,10 @@
-# ubuntu-server-docker-web-hosting-lab
-A comprehensive, highly detailed technical log documenting the end-to-end process of setting up a local virtualization environment on Windows using Hyper-V, provisioning an Ubuntu Server LTS virtual machine, bridging network adapters, and deploying a containerized web server via Docker &amp; Docker Compose.
+# Hyper V Ubuntu Server & Docker Web Hosting Lab
+A comprehensive, highly detailed technical log documenting the end-to-end process of setting up a local virtualization environment on Windows using Hyper-V, provisioning an Ubuntu Server LTS virtual machine, bridging network adapters, and deploying a containerized web server via Docker and Docker Compose.
+
+## Infrastructure and Tech Stack
+* **Host OS:** Windows 11 Pro
+* **Hypervisor:** Windows Hyper-V
+* **Guest OS:** Ubuntu Server 26.04.1 LTS
+* **Networking:** External Virtual Switch bridged to the Realtek PCIe GbE Family Controller
+* **Containerization:** Docker Engine and Docker Compose Plugin
+* **Web Stack:** Nginx with custom HTML/CSS
