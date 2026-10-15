@@ -31,3 +31,5 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * **Installation Options:** Selected **Install an operating system from a bootable image file (.iso)** and selected the appropriate, previously downloaded **Ubuntu Server .iso** file.
 
 **Note:** Before booting, accessed the VM's **Settings > Security** menu to uncheck **Enable Secure Boot** to prevent Linux bootloader from being restricted during deployment.
+
+### Step 3: Ubuntu Server Installation
