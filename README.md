@@ -14,4 +14,6 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
 1. **Enable Hyper-V**
      * Opened Window's start menu and searched for ***Turn Windows features on or off***.
      * Selected ***Hyper-V*** and ensured ***Hyper-V Management Tools*** and the ***Hyper-V Platform*** are fully enabled.
-3. **Configure the External Virtual Switch**
+     * Rebooted system to initialize the hypervisor.
+2. **Configure the External Virtual Switch**
+    * Launched ***Hyper-V Manager*** and connected to the local host.
