@@ -95,7 +95,12 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
 
 2. **Docker Compose:**
     * Created docker compose *.yml* file specifying an Alpine-based Nginx container, port binding from host port '80' to container port '80', and a read-only bind mount for local HTML directory.
-3. **Launching Stack:**
+  
+<p align="center">
+    <img src="images/yml.png" alt="yml" width="500"/>
+</p>
+   
+4. **Launching Stack:**
     * Executed container deployment
     * Verified container health and interfaced
   
