@@ -80,6 +80,10 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * Added Docker's official signing keys and repository configuration.
     * Added user  to the docker group to enable container execution without root privileges.
 
+<p align="center">
+    <img src="images/docker.png" alt="docker" width="500"/>
+</p>
+
 ### Step 5: Containerized Web Server Deployment
 1. **Directory Structure and Assets**
     * Created project workspace.
