@@ -32,4 +32,37 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
 
 **Note:** Before booting, accessed the VM's **Settings > Security** menu to uncheck **Enable Secure Boot** to prevent Linux bootloader from being restricted during deployment.
 
-### Step 3: Ubuntu Server Installation
+### Step 3: Ubuntu Server Installation and OpenSSH Setup
+1. **OS Installation:**
+    * Connected to and powered on VM console.
+    * Selected **Try or Install Ubuntu Server** from GRUB boot menu.
+    * Walked through installer and accepted standard settings.
+2. **Network and Profile Configuration:**
+    * Verified that the installer's network configuration detected the "HomeLab-Switch" interface and successfully leased a local IP with DCHP.
+    * Configured user profile details (name, server host name, username).
+3. **Enable Remote SSH Access:**
+    * Selected **Install OpenSSH server** and **Allow Password authentication over SSH**.
+    * Allowed installer to complete necessary actions and rebooted system.
+  
+### Step 4: Host-to-Guest SSH and Docker Environment Setup
+1. **Establish SSH Tunnel**
+    * Verified VM's local IP using *ip a* in the terminal.
+    * Opened **Powershell** on host machine and remotely connected to server.
+2. **Install Docker Engine and Compose**
+    * Updated system packages and tools.
+    * Added Docker's official signing keys and repository configuration.
+    * Added user  to the docker group to enable container execution without root privileges.
+
+### Step 5: Containerized Web Server Deployment
+1. **Directory Structure and Assets**
+    * Created project workspace.
+    * Developed custom HTML/CSS landing page.
+2. **Docker Compose:**
+    * Created docker compose *.yml* file specifying an Alpine-based Nginx container, port binding from host port '80' to container port '80', and a read-only bind mount for local HTML directory.
+3. **Launching Stack:**
+    * Executed container deployment
+    * Verified container health and interfaced
+  
+## 📸 Validation and Verification
+* **Local Network Validation:** Opened Windows host web browser and navigated to host IP.
+* **Result:** Successfully loaded custom webpage, validating hosting.
