@@ -22,7 +22,9 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * Launched ***Hyper-V Manager*** and connected to the local host.
     * Opened ***Virtual Switch Manager*** and created a new virtual switch named "HomeLab-Switch".
     * Bound the switch directly to the physical network adapter, ensuring that ***Allow management operating system to share this network adapter*** is selected to allow the VM to pull an independent IP address directly from home router's DHCP pool.
-
+<p align="center">
+    <img src="images/switch.png" alt="enable" width="500"/>
+</p>
 
 ### Step 2: Virtual Machine Preparation
 1. **Wizard Configuration:**
