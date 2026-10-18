@@ -62,6 +62,10 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * Selected **Install OpenSSH server** and **Allow Password authentication over SSH**.
     * Allowed installer to complete necessary actions and rebooted system.
   
+<p align="center">
+    <img src="images/allow-ssh.png" alt="allow-ssh" width="500"/>
+</p>
+  
 ### Step 4: Host-to-Guest SSH and Docker Environment Setup
 1. **Establish SSH Tunnel**
     * Verified VM's local IP using *ip a* in the terminal.
