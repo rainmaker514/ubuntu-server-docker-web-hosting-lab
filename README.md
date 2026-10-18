@@ -111,3 +111,7 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
 ## 📸 Validation and Verification
 * **Local Network Validation:** Opened Windows host web browser and navigated to host IP.
 * **Result:** Successfully loaded custom webpage, validating hosting.
+
+<p align="center">
+    <img src="images/result.png" alt="result" width="500"/>
+</p>
