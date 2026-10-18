@@ -104,6 +104,10 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * Executed container deployment
     * Verified container health and interfaced
   
+<p align="center">
+    <img src="images/exe.png" alt="exe" width="500"/>
+</p>
+  
 ## 📸 Validation and Verification
 * **Local Network Validation:** Opened Windows host web browser and navigated to host IP.
 * **Result:** Successfully loaded custom webpage, validating hosting.
