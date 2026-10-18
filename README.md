@@ -50,6 +50,11 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
     * Connected to and powered on VM console.
     * Selected **Try or Install Ubuntu Server** from GRUB boot menu.
     * Walked through installer and accepted standard settings.
+
+  <p align="center">
+    <img src="images/install.png" alt="install" width="500"/>
+</p>
+      
 2. **Network and Profile Configuration:**
     * Verified that the installer's network configuration detected the "HomeLab-Switch" interface and successfully leased a local IP with DCHP.
     * Configured user profile details (name, server host name, username).
@@ -61,6 +66,11 @@ A comprehensive, highly detailed technical log documenting the end-to-end proces
 1. **Establish SSH Tunnel**
     * Verified VM's local IP using *ip a* in the terminal.
     * Opened **Powershell** on host machine and remotely connected to server.
+  
+<p align="center">
+    <img src="images/ssh.png" alt="ssh" width="500"/>
+</p>
+      
 2. **Install Docker Engine and Compose**
     * Updated system packages and tools.
     * Added Docker's official signing keys and repository configuration.
